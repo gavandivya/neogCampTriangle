@@ -1,0 +1,121 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    /* background-color: black; */
+}
+
+li{
+    display: inline;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+nav{
+    background-color: rgb(11, 173, 173);
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+
+.angle-container{
+    width: 50%;
+    margin: auto;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+input{
+    width: 75%;
+    padding: 0.5rem;
+    margin: 0.8rem 0px;
+    outline-style: auto;
+    outline-width: 1px;
+    outline-color: rgb(7 88 88);
+    border-radius: 25px;
+}
+
+.btn{
+    background-color: rgb(11, 173, 173);
+    padding: 0.5rem 1rem;
+    border-radius: 28px;
+    outline: auto;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+footer{
+    background-color: rgb(11, 173, 173);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.link-active {
+    /* font-weight: bold; */
+    /* font-size: larger; */
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    opacity: 0.7;
+    color: rgb(11, 173, 173);
+}
+
+label{
+    margin: 0 1rem;
+}
+
+h2{
+    border: 2px solid rgb(11, 173, 173);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+footer{
+text-align:center;
+}
+    
+@media only screen and (max-width: 700px) {
+    .angle-container {
+        width: 80%;
+        padding: 1rem 0;
+    }
+
+    li{
+        padding: 0.2rem;
+        margin: 0.2rem;
+        font-size: 0.8rem;
+    }
+
+    input{
+        width: 55%;
+        padding: 0.3rem;
+        margin: 0.6rem 0px;
+    }
+
+    .btn{
+        padding: 0.3rem 1rem;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    h2{
+        font-size: 12px;
+        padding: 0.5rem;
+    }
+
+  }

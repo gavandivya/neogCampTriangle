@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+    <img src="./triabg.png" alt="" style="width:100px; height:50px;">
+    <ul style="float:right;">
+            <li><a href="isTriangle.html">IsTriangle</a></li>
+            <li><a href="hypotenuse.html">Hypotenuse</a></li>
+            <li><a href="quiz.html" class="link-active">Quiz</a></li>
+            <li><a href="area.html">Area</a></li>
+          </ul>
+    </nav>
+    <form class="quizForm">
+    <div class="angle-container" style="text-align: left;padding: 1rem 0;">
+        <h2>Triangle Quiz</h2>
+        <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label for="q1"><input style="width:auto;" value="45°" type="radio" name="radio1"> &nbsp;45°</label>
+            <label for="q1"><input style="width:auto;" value="60°" type="radio" name="radio1"> &nbsp;60°</label>
+            <label for="q1"><input style="width:auto;" value="90°" type="radio" name="radio1"> &nbsp;90°</label>
+    </div>
+    <div class="angle-container" style="text-align: left;">
+        <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+            <label for="q2"><input style="width:auto;" value="Obtuse" type="radio" name="radio2"> &nbsp;Obtuse</label>
+            <label for="q2"><input style="width:auto;" value="Acute" type="radio" name="radio2"> &nbsp;Acute</label>
+            <label for="q2"><input style="width:auto;" value="Right Angled" type="radio" name="radio2"> &nbsp;Right Angled</label>
+    </div>
+    <div style="text-align:center;">
+        <button type="button" class="btn" id="quizBtn">Check</button>
+        <p id="outputText"></p>
+        <p id="errorText" style="color:red;"></p>
+    </div>
+    </form>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/divya-gavandi/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/divya.gavandi.3"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+            <li><a href="https://www.instagram.com/gavandivya/"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+            <li><a href="mailto:divya190399@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
+          </ul>
+          <p style="color: #000">&#9400; | 2022 |  @gavandivya</p>
+    </footer>
+    <script src="./quiz.js"></script>
+</body>
+</html>
