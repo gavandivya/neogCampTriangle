@@ -26,6 +26,6 @@ For generating favicon from any image of choice I used https://www.favicon-gener
 
 Give a 🌟 if you found this repository useful!
 
-Made with ❤ by Divya Gavandi
+Made with 💖 by Divya Gavandi
 
 
