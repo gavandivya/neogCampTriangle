@@ -9,7 +9,7 @@ function isTriangle() {
     console.info(input[0].value);
     const sum = Sum(Number(input[0].value), Number(input[1].value), Number(input[2].value));
     if (input[0].value && input[1].value && input[2].value) {
-        if (input[0].value <= 0 && input[1].value <= 0 && input[2].value <= 0) {
+        if (input[0].value >= 0 && input[1].value >= 0 && input[2].value >= 0) {
             if (sum === 180) {
                 output.innerText = "Ohh its a TRIANGLE";
             }

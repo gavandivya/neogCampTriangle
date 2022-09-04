@@ -7,7 +7,7 @@ function isHypoTriangle() {
     output.innerText = "";
     const hypo = CalculateHypo(Number(input[0].value), Number(input[1].value));
     if (input[0].value && input[1].value) {
-        if (input[0].value <= 0 && input[1].value <= 0) {
+        if (input[0].value >= 0 && input[1].value >= 0) {
             output.innerText = "The length of hypotenuse is " + hypo + " cm";
         }
         else {
