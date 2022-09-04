@@ -1,74 +1,207 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Fun With Triangle</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-    <img src="./triabg.png" alt="" style="width:100px; height:50px;">
-    <ul style="float:right;">
-            <li><a href="index.html">IsTriangle</a></li>
-            <li><a href="hypotenuse.html">Hypotenuse</a></li>
-            <li><a href="javascript:void(0)" class="link-active">Quiz</a></li>
-            <li><a href="area.html">Area</a></li>
-    </ul>
+      <img src="./triabg.png" alt="" style="width: 100px; height: 50px" />
+      <ul style="float: right">
+        <li><a href="index.html">IsTriangle</a></li>
+        <li><a href="hypotenuse.html">Hypotenuse</a></li>
+        <li><a href="javascript:void(0)" class="link-active">Quiz</a></li>
+        <li><a href="area.html">Area</a></li>
+      </ul>
     </nav>
     <form class="quizForm">
-    <div class="angle-container" style="text-align: left;padding: 1rem 0;">
+      <div class="angle-container" style="text-align: left; padding: 1rem 0">
         <h2>Triangle Quiz</h2>
-        <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-            <label for="q1"><input style="width:auto;" value="45°" type="radio" name="radio1"> &nbsp;45°</label>
-            <label for="q1"><input style="width:auto;" value="60°" type="radio" name="radio1"> &nbsp;60°</label>
-            <label for="q1"><input style="width:auto;" value="90°" type="radio" name="radio1"> &nbsp;90°</label>
-    </div>
-    <div class="angle-container" style="text-align: left;">
+        <p>
+          What is the third angle for the triangle where angle1 = 45° and angle2
+          = 45°?
+        </p>
+        <label for="q1"
+          ><input style="width: auto" value="45°" type="radio" name="radio1" />
+          &nbsp;45°</label
+        >
+        <label for="q1"
+          ><input style="width: auto" value="60°" type="radio" name="radio1" />
+          &nbsp;60°</label
+        >
+        <label for="q1"
+          ><input style="width: auto" value="90°" type="radio" name="radio1" />
+          &nbsp;90°</label
+        >
+      </div>
+      <div class="angle-container" style="text-align: left">
         <p>If a triangle has an angle of 90 degrees, what is it called?</p>
-            <label for="q2"><input style="width:auto;" value="Obtuse" type="radio" name="radio2"> &nbsp;Obtuse</label>
-            <label for="q2"><input style="width:auto;" value="Acute" type="radio" name="radio2"> &nbsp;Acute</label>
-            <label for="q2"><input style="width:auto;" value="Right Angled" type="radio" name="radio2"> &nbsp;Right Angled</label>
-    </div>
-    <div class="angle-container" style="text-align:left">
+        <label for="q2"
+          ><input
+            style="width: auto"
+            value="Obtuse"
+            type="radio"
+            name="radio2"
+          />
+          &nbsp;Obtuse</label
+        >
+        <label for="q2"
+          ><input
+            style="width: auto"
+            value="Acute"
+            type="radio"
+            name="radio2"
+          />
+          &nbsp;Acute</label
+        >
+        <label for="q2"
+          ><input
+            style="width: auto"
+            value="Right Angled"
+            type="radio"
+            name="radio2"
+          />
+          &nbsp;Right Angled</label
+        >
+      </div>
+      <div class="angle-container" style="text-align: left">
         <p>Which of the following triangles are always similar?</p>
-        <label for="q3"><input style="width:auto;" value="Equilateral" type="radio" name="radio3"> &nbsp;Equilateral Triangle</label>
-        <label for="q3"><input style="width:auto;" value="Isosceles" type="radio" name="radio3"> &nbsp;Isosceles Triangle</label>
-        <label for="q3"><input style="width:auto;" value="Scaler" type="radio" name="radio3"> &nbsp;Scaler Triangle</label>
-    </div>
-    <div class="angle-container" style="text-align: left;">
-        <p>If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?</p>
-        <label for="q4"><input style="width:auto;" value="30°" type="radio" name="radio4"> &nbsp30°</label>
-        <label for="q4"><input style="width:auto;" value="10°" type="radio" name="radio4"> &nbsp;80°</label>
-        <label for="q4"><input style="width:auto;" value="20°" type="radio" name="radio4"> &nbsp;10°</label>
-    </div>
-    <div class="angle-container" style="text-align: left;">
-        <p>If a triangle has an angle greater than 90 degrees, what is it called?</p>
-            <label for="q5"><input style="width:auto;" value="Obtuse" type="radio" name="radio5"> &nbsp;Obtuse</label>
-            <label for="q5"><input style="width:auto;" value="Acute" type="radio" name="radio5"> &nbsp;Acute</label>
-            <label for="q5"><input style="width:auto;" value="Right Angled" type="radio" name="radio5"> &nbsp;Right Angled</label>
-    </div>
-    <div class="angle-container" style="text-align: left;">
+        <label for="q3"
+          ><input
+            style="width: auto"
+            value="Equilateral"
+            type="radio"
+            name="radio3"
+          />
+          &nbsp;Equilateral Triangle</label
+        >
+        <label for="q3"
+          ><input
+            style="width: auto"
+            value="Isosceles"
+            type="radio"
+            name="radio3"
+          />
+          &nbsp;Isosceles Triangle</label
+        >
+        <label for="q3"
+          ><input
+            style="width: auto"
+            value="Scaler"
+            type="radio"
+            name="radio3"
+          />
+          &nbsp;Scaler Triangle</label
+        >
+      </div>
+      <div class="angle-container" style="text-align: left">
+        <p>
+          If the largest angle in a triangle is 70°, what is the least possible
+          value of the smallest angle of the triangle?
+        </p>
+        <label for="q4"
+          ><input style="width: auto" value="30°" type="radio" name="radio4" />
+          &nbsp30°</label
+        >
+        <label for="q4"
+          ><input style="width: auto" value="10°" type="radio" name="radio4" />
+          &nbsp;80°</label
+        >
+        <label for="q4"
+          ><input style="width: auto" value="20°" type="radio" name="radio4" />
+          &nbsp;10°</label
+        >
+      </div>
+      <div class="angle-container" style="text-align: left">
+        <p>
+          If a triangle has an angle greater than 90 degrees, what is it called?
+        </p>
+        <label for="q5"
+          ><input
+            style="width: auto"
+            value="Obtuse"
+            type="radio"
+            name="radio5"
+          />
+          &nbsp;Obtuse</label
+        >
+        <label for="q5"
+          ><input
+            style="width: auto"
+            value="Acute"
+            type="radio"
+            name="radio5"
+          />
+          &nbsp;Acute</label
+        >
+        <label for="q5"
+          ><input
+            style="width: auto"
+            value="Right Angled"
+            type="radio"
+            name="radio5"
+          />
+          &nbsp;Right Angled</label
+        >
+      </div>
+      <div class="angle-container" style="text-align: left">
         <p>The perimeter of triangle with sides a, b, c is</p>
-            <label for="q6"><input style="width:auto;" value="a + b + c" type="radio" name="radio6"> &nbsp;a + b + c</label>
-            <label for="q6"><input style="width:auto;" value="2a" type="radio" name="radio6"> &nbsp;2a</label>
-            <label for="q6"><input style="width:auto;" value="None of these" type="radio" name="radio6"> &nbsp;None of these</label>
-    </div>
-    <div style="text-align:center;padding-bottom: 4rem;">
+        <label for="q6"
+          ><input
+            style="width: auto"
+            value="a + b + c"
+            type="radio"
+            name="radio6"
+          />
+          &nbsp;a + b + c</label
+        >
+        <label for="q6"
+          ><input style="width: auto" value="2a" type="radio" name="radio6" />
+          &nbsp;2a</label
+        >
+        <label for="q6"
+          ><input
+            style="width: auto"
+            value="None of these"
+            type="radio"
+            name="radio6"
+          />
+          &nbsp;None of these</label
+        >
+      </div>
+      <div style="text-align: center; padding-bottom: 4rem">
         <p id="outputText"></p>
-        <p id="errorText" style="color:red;"></p>
+        <p id="errorText" style="color: red"></p>
         <button type="button" class="btn" id="quizBtn">Check</button>
-    </div>
+      </div>
     </form>
-    <footer>            
-        <ul>
-            <li><a href="https://www.linkedin.com/in/divya-gavandi/"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://www.facebook.com/divya.gavandi.3"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-            <li><a href="https://www.instagram.com/gavandivya/"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-            <li><a href="mailto:divya190399@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> </a></li>
-        </ul>
-        <p style="color: #000">&#9400; | 2022 |  @gavandivya</p>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/divya-gavandi/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/divya.gavandi.3"
+            ><i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/gavandivya/"
+            ><i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:divya190399@gmail.com"
+            ><i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+      <p style="color: #000">&#9400; | 2022 | @gavandivya</p>
     </footer>
     <script src="./quiz.js"></script>
-</body>
+  </body>
 </html>

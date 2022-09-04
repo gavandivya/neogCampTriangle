@@ -3,26 +3,26 @@ const button = document.querySelector("#areaBtn");
 const output = document.querySelector("#outputText");
 const error = document.querySelector("#errorText");
 
-function Triangle(){
+function Triangle() {
     error.innerText = "";
-    output.innerText="";
-    const area = CalculateArea(input[0].value,input[1].value);
+    output.innerText = "";
+    const area = CalculateArea(input[0].value, input[1].value);
     console.info(area);
-    if(input[0].value && input[1].value){
-        if(input[0].value != 0 && input[1].value != 0){
-        output.innerText = "The area of triangle is "+area+" cm²";
+    if (input[0].value && input[1].value) {
+        if (input[0].value <= 0 && input[1].value <= 0) {
+            output.innerText = "The area of triangle is " + area + " cm²";
         }
-        else{
-        error.innerText = "Base/Height can't be 0";   
+        else {
+            error.innerText = "Base/Height can't be 0 or less than 0";
         }
     }
-    else{
-    error.innerText = "Please fill all the details";
+    else {
+        error.innerText = "Please fill all the details";
     }
 }
 
-function CalculateArea(base,height){
-    const area = (1/2)*base*height;
+function CalculateArea(base, height) {
+    const area = (1 / 2) * base * height;
     return area
 }
 
