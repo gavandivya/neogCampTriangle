@@ -9,7 +9,7 @@ function Triangle() {
     const area = CalculateArea(input[0].value, input[1].value);
     console.info(area);
     if (input[0].value && input[1].value) {
-        if (input[0].value <= 0 && input[1].value <= 0) {
+        if (input[0].value >= 0 && input[1].value >= 0) {
             output.innerText = "The area of triangle is " + area + " cm²";
         }
         else {
